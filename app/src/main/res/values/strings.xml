@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FragmentAct</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name_tv">Full Name</string>
+    <string name="first_name_pt_hint">First Name</string>
+    <string name="middle_name_pt_hint">Middle Name</string>
+    <string name="last_name_pt_hint">Last Name</string>
+    <string name="home_address_tv">Home Address</string>
+    <string name="house_num_pt_hint">House #</string>
+    <string name="street_name_pt_hint">Street Name</string>
+    <string name="subdivision_housing_name_pt_hint">Subdivision/Housing Name</string>
+    <string name="city_name_pt_hint">City Name</string>
+    <string name="country_name_pt_hint">Country Name</string>
+    <string name="notes_tv">Notes</string>
+    <string name="comment_notes_pt_hint">Comment/Notes</string>
+    <string name="back_button_label">Back</string>
+    <string name="save_button_label">Save</string>
+</resources>
