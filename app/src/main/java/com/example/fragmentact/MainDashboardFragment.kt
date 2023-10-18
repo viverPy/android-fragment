@@ -39,6 +39,7 @@ class MainDashboardFragment : Fragment() {
         val v = inflater.inflate(R.layout.fragment_main_dashboard, container, false)
         val qpiButton = v.findViewById<Button>(R.id.qpiBtn)
         val inputsButton = v.findViewById<Button>(R.id.inputsBtn)
+        val midtermButton = v.findViewById<Button>(R.id.midtermBtn)
 
         qpiButton.setOnClickListener {
             val qpiActivity = Intent(activity, QpiCalculator::class.java)
@@ -46,9 +47,15 @@ class MainDashboardFragment : Fragment() {
         }
 
         inputsButton.setOnClickListener {
-            val qpiActivity = Intent(activity, Inputs::class.java)
-            startActivity(qpiActivity)
+            val inputsActivity = Intent(activity, Inputs::class.java)
+            startActivity(inputsActivity)
         }
+
+        midtermButton.setOnClickListener {
+            val midtermExamActivity = Intent(activity, MidtermExam::class.java)
+            startActivity(midtermExamActivity)
+        }
+
 
 
         return v

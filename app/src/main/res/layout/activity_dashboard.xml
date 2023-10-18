@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:name="com.example.fragmentact.MainDashboardFragment" />
+        android:name="com.example.fragmentact.MainDashboardFragment"
+        tools:layout="@layout/fragment_main_dashboard" />
 
     <View
         android:id="@+id/divider3"
